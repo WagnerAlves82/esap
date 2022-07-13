@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Teste Esap</title>
+
+<!-- Image and text -->
+<style>
+ #ava { width: 150px;
+  height: 35px;
+  font-size: small;
+  text-align: center;
+ 
+  margin: 5px;
+
+ }
+</style>
+<div class="sticky-top"> 
+
+     
+      
+  
+<nav class="navbar navbar-light bg-info">
+  <a class="navbar-brand" href="#">
+    <img src="img/ESAP.svg" width="70" height="70" class="d-inline-block align-center" alt="">
+    Escola de Saúde Pública
+  </a>
+  <form class="d-flex" role="search">
+    <input class="form-control  w-100 text-right" type="search" placeholder="Pesquisar" aria-label="Search">
+    <button class="btn btn-warning mr-2 ml-2 " type="submit">Pesquisar</button>
+  </form>
+</nav>
+<nav class="navbar navbar-expand-lg navbar-light bg-light mb-2">
+  <a class="navbar-brand" href="#">Home</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-expanded="false">
+          Institucional
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Sobre</a>
+          <a class="dropdown-item" href="#">Missão, Visão e Valores</a>
+          <a class="dropdown-item" href="#">Quem é quem</a>
+          <a class="dropdown-item" href="#">Estrutura Organizacional</a>
+          <a class="dropdown-item" href="#">Legislações</a>
+          <a class="dropdown-item" href="#">Projeto Político Pedagógico (PPP)</a>
+          <a class="dropdown-item" href="#">Programa de Desenvolvimento Institucional (PDI)</a>
+         </div>
+      </li>
+      
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-expanded="false">
+          Ensino
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Residências em Saúde</a>
+          <a class="dropdown-item" href="#">Pós Graduação</a>
+          <a class="dropdown-item" href="#">Educação Profissional em Saúde</a>
+          <a class="dropdown-item" href="#">Educação na Saúde</a>
+          <a class="dropdown-item" href="#">Cursos Livres</a>
+         </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-expanded="false">
+          Pesquisa
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Submissão de Pesquisa</a>
+          <a class="dropdown-item" href="#">Comitê Científico</a>
+          <a class="dropdown-item" href="#">Produção Científica</a>
+          <a class="dropdown-item" href="#">Grupo de Pesquisa</a>
+          <a class="dropdown-item" href="#">Perguntas Frequentes</a>
+         </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-expanded="false">
+          Extensão
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Submissão de Projetos</a>
+          <a class="dropdown-item" href="#">Projetos de Extensão</a>
+          <a class="dropdown-item" href="#">Produção Científica</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-expanded="false">
+          Plataformas
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">AVA</a>
+          <a class="dropdown-item" href="#">SisResidência</a>
+          <a class="dropdown-item" href="#">Biblioteca Virtual em Saúde</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-expanded="false">
+          Biblioteca
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Repositório Institucional</a>
+          <a class="dropdown-item" href="#">Fontes de informações em saúde</a>
+          <a class="dropdown-item" href="#">Biblioteca Virtual em Saúde (BVS)</a>
+          <a class="dropdown-item" href="#">ENSP</a>
+          <a class="dropdown-item" href="#">EvipNet</a>
+          <a class="dropdown-item" href="#">Lilacs</a>
+          <a class="dropdown-item" href="#">Portal Capes</a>
+          <a class="dropdown-item" href="#">Pubmed</a>
+          <a class="dropdown-item" href="#">Scielo</a>
+          <a class="dropdown-item" href="#">Redalyc</a>
+          <a class="dropdown-item" href="#">Sistemas de Informação em Saúde</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-expanded="false">
+          Comunicação
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Notícias</a>
+          <a class="dropdown-item" href="#">Galeria de Fotos</a>
+          <a class="dropdown-item" href="#">Galeria de Vídeos</a>
+          <a class="dropdown-item" href="#">Eventos</a>
+          <a class="dropdown-item" href="#">Agenda</a>
+          <a class="dropdown-item" href="#">Links</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-expanded="false">
+          Secretaria Acadêmica
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Sistema Acadêmico</a>
+          <a class="dropdown-item" href="#">Solicitação de Documentos</a>
+          <a class="dropdown-item" href="#">Fale Conosco</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-expanded="false">
+          Concursos e Seleções Públicas
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Seleções Públicas 2019</a>
+          <a class="dropdown-item" href="#">Seleções Públicas 2020</a>
+          <a class="dropdown-item" href="#">Seleções Públicas 2021</a>
+          <a class="dropdown-item" href="#">Perguntas Frequentes</a>
+        </div>
+      </li>
+     
+    </ul>
+  </div>
+  </div>
+</nav>
+
+<style>
+  body{
+    margin: 0 0 0 0;
+  }
+</style>
+    </head>
+	<body class="container-xxl justify-content-center align-items-center">
+    <!--CARROSSEL-->
+   
+      <div class="row">
+        <div class="col-lg-9">
+          <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/semsaesap2.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>First slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/Dra_Vania_Backes.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Second slide label</h5>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/CPS_all.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+            </div>
+         
+           
+          </div>
+        </div>
+          <!--Biblioteca-->
+        <div class="col-lg text-left">
+          <h5 class="text-success text-left">>EVENTOS</h5>
+          
+          <p><strong>This line rendered as bold text.</strong></p>
+          <p class="mt-0"><small>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+           </small></p>
+         
+          <button type="button" class="btn btn-success">Clique para acessar a Biblioteca</button>
+          <br>
+          <hr>
+          <div class="d-block ">
+            <li class="media">
+              <img src="img/boton_.svg" width="64" height="64" class="mr-1" alt="...">
+              <div class="media-body">
+                <h6 class="mt-0 mb-0">List-based media </h6>
+                <p>Are you brave enough to let me see your peacock?</p>
+              </div>
+            </li><hr>
+            <li class="media">
+              <img src="img/boton_.svg" width="64" height="64" class="mr-1" alt="...">
+              <div class="media-body">
+                <h6 class="mt-0 mb-0">List-based media </h6>
+                <p>Are you brave enough to let me see your peacock?</p>
+              </div>
+            </li><hr>
+            <li class="media">
+              <img src="img/boton_.svg" width="64" height="64" class="mr-1" alt="...">
+              <div class="media-body">
+                <h6 class="mt-0 mb-0">List-based media </h6>
+                <p>Are you brave enough to let me see your peacock?</p>
+              </div>
+            </li>
+          </div>
+        </div>
+       
+      </div> 
+    <br>
+    <!--TÍTULO CURSOS-->
+    <div>
+      <h3>Nossos Cursos</h3>
+    </div>
+    <br>
+     <!--FIM TÍTULO CURSOS-->
+
+    <!--SEGUNDO BLOCO-->
+    
+    <!--CARDS CURSOS-->
+    
+    
+      <!--SECTION1-->
+    <section class="bg-warning col-md-12">
+      <div class="row gx-5 ">
+        <div class="col-lg">
+          <div class="p-3 border bg-white mb-5 align-center">
+            <img src="bootstrap-icons-1.8.0/apple.svg" width="70" height="70"  alt="...">
+           <p class="d-inline-flex">Custom column padding Custom column padding Custom column padding Custom column padding</p></div>
+        </div>
+        <div class="col-lg">
+          <div class="p-3 border bg-white mb-5 align-center"><img src="bootstrap-icons-1.8.0/apple.svg" width="70" height="70"  alt="...">
+            <p class="d-inline-flex">Custom column padding Custom column padding Custom column padding Custom column padding</p></div>
+        </div>
+        <div class="col-lg">
+          <div class="p-3 border bg-white mb-5 align-center"><img src="bootstrap-icons-1.8.0/apple.svg" width="70" height="70"  alt="...">
+            <p class="d-inline-flex">Custom column padding Custom column padding Custom column padding Custom column padding</p></div>
+        </div>
+        <aside class="bg-dark col-md-3">
+
+          <div class="col-lg text-left">
+            <h5 class="text-success text-left">>EVENTOS</h5>
+            
+            <p><strong>This line rendered as bold text.</strong></p>
+            <p><small>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+              Lorem Ipsum has been the industry's standard dummy text.</small></p>
+           
+            <button type="button" class="btn btn-success">Clique para acessar a Biblioteca</button>
+            <br>
+            <hr>
+            <li class="media">
+              <img src="img/boton_.svg" width="64" height="64" class="mr-1" alt="...">
+              <div class="media-body">
+                <h5 class="mt-0 mb-1">List-based media </h5>
+                <p>Are you brave enough to let me see your peacock?</p>
+              </div>
+            </li>
+          </div>
+         </aside>
+    </section>
+    <div >
+      <div class="row bg-dark" width="30" height="30">
+          <div class="col-md-6 text-left align-center"><h3 class="text-warning  ">Acesse nossas redes sociais</h3></div>
+          <div class="col-md-6 text-right"> <img src="img/facebook.svg" width="30" height="30" class="d-inline-block" alt="">
+            <img src="img/youtube.svg" width="30" height="30" class="d-inline-block" alt="">
+            <img src="img/twitter.svg" width="30" height="30" class="d-inline-block" alt="">
+            <img src="img/Instagram.svg" width="30" height="30" class="d-inline-block" alt="">
+            <a id="ava" class="btn btn-info"  href="http://avaesap.manaus.am.gov.br/login/index.php" role="button">Acesse o AVA Esap</a></div>
+      </div>
+  </div>
+    <div class="container-fluid bg-dark text-right">
+      
+     
+</div>
+     
+      
+      
+     <!--FIM CARDS CURSOS-->
+      
+     <!--Biblioteca2-->
+      <div class="container-xxl bg-info p-3">
+        <div class="col-lg-8 text-left">
+          <h5 class="text-success text-left col-lg-6 pt-3">>EVENTOS</h5>
+          
+          <p class="text-left"><strong>This line rendered as bold text.</strong></p>
+          <p class="text-left"><small>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+            Lorem Ipsum has been the industry's standard dummy text.</small></p><hr>
+         
+          <button type="button" class="btn btn-success mb-3">Clique para acessar a Biblioteca</button>
+         
+        </div>
+      </div>
+      <br>
+      
+       
+      
+   
+     
+       
+    
+
+    <!--CARDS-->
+    
+
+        <div>
+      <div class="row gx-5">
+        <div class="col-md">
+          <div class="card border-light mb-3" style="max-width: 18rem;">
+            <div class="card-header">Header</div>
+            <img src="img/boton_.svg" class="d-block w-75 text-center" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Light card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="stretched-link">Saiba Mais</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="card border-light mb-3" style="max-width: 18rem;">
+            <div class="card-header">Header</div>
+            <img src="img/boton_.svg" class="d-block w-75 text-center" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Light card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="stretched-link">Saiba Mais</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="card border-light mb-3" style="max-width: 18rem;">
+            <div class="card-header">Header</div>
+            <img src="img/boton_.svg" class="d-block w-75 text-center" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Light card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="stretched-link">Saiba Mais</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+ 
+
+    
+    
+    <h3 class="text-center mb-5">Mais sobre a Esap/Semsa</h3>
+   
+      <div class="row gx-5">
+        <div class="col-xl">
+          <div class="p-3 border bg-white mb-5 align-center">
+            <img src="bootstrap-icons-1.8.0/apple.svg" width="70" height="70"  alt="...">
+           <p class="d-inline-flex">Custom column padding Custom column padding Custom column padding Custom column padding</p></div>
+        </div>
+        <div class="col-lg">
+          <div class="p-3 border bg-white mb-5 align-center"><img src="bootstrap-icons-1.8.0/apple.svg" width="70" height="70"  alt="...">
+            <p class="d-inline-flex">Custom column padding Custom column padding Custom column padding Custom column padding</p></div>
+        </div>
+        <div class="col-lg">
+          <div class="p-3 border bg-white mb-5 align-center"><img src="bootstrap-icons-1.8.0/apple.svg" width="70" height="70"  alt="...">
+            <p class="d-inline-flex">Custom column padding Custom column padding Custom column padding Custom column padding</p></div>
+        </div>
+        <div class="col-lg">
+          <div class="p-3 border bg-white mb-5 align-center"><img src="bootstrap-icons-1.8.0/apple.svg" width="70" height="70"  alt="...">
+            <p class="d-inline-flex">Custom column padding Custom column padding Custom column padding Custom column padding</p></div>
+        </div>
+      </div>
+    </div>
+</div>
+    <!--SECTION2-->
+    <section class="bg-warning col-md-12">
+      <div class="row gx-5 ">
+        <div class="col-md-3">
+          <div class="p-3 border bg-white mb-5 align-center">
+            <img src="bootstrap-icons-1.8.0/apple.svg" width="70" height="70"  alt="...">
+           <p class="d-inline-flex">Custom column padding Custom column padding Custom column padding Custom column padding</p></div>
+        </div>
+        <div class="col-md-3">
+          <div class="p-3 border bg-white mb-5 align-center"><img src="bootstrap-icons-1.8.0/apple.svg" width="70" height="70"  alt="...">
+            <p class="d-inline-flex">Custom column padding Custom column padding Custom column padding Custom column padding</p></div>
+        </div>
+        <div class="col-md-3">
+          <div class="p-3 border bg-white mb-5 align-center"><img src="bootstrap-icons-1.8.0/apple.svg" width="70" height="70"  alt="...">
+            <p class="d-inline-flex">Custom column padding Custom column padding Custom column padding Custom column padding</p></div>
+        </div>
+        <aside class="bg-dark col-md-3">
+
+          <div class="d-block ">
+            <li class="media">
+              <img src="img/boton_.svg" width="64" height="64" class="mr-1" alt="...">
+              <div class="media-body">
+                <h6 class="mt-0 mb-0">List-based media </h6>
+                <p>Are you brave enough to let me see your peacock?</p>
+              </div>
+            </li><hr>
+            <li class="media">
+              <img src="img/boton_.svg" width="64" height="64" class="mr-1" alt="...">
+              <div class="media-body">
+                <h6 class="mt-0 mb-0">List-based media </h6>
+                <p>Are you brave enough to let me see your peacock?</p>
+              </div>
+            </li><hr>
+            <li class="media">
+              <img src="img/boton_.svg" width="64" height="64" class="mr-1" alt="...">
+              <div class="media-body">
+                <h6 class="mt-0 mb-0">List-based media </h6>
+                <p>Are you brave enough to let me see your peacock?</p>
+              </div>
+            </li>
+          </div>
+         </aside>
+    </section>
+
+
+    <!--ASIDE-->
+   
+    <!--Carrossel texto-->
+    
+
+
+
+     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+  </body>
+    
+   
+
+   <footer>
+    <div class="container-xxl bg-light">
+      <div class="row">
+          <div class="col-md-3 p-4">
+            <img src="img/ESAP.svg" style="width: 100px; height: 100px" alt="..."><br>
+            Rua Penetração Nº 1689<br>Nossa senhora das Graças<br> Manaus-AM<br> CEP 69057002<hr>
+            Email: ti.esap@pmm.am.gov.br<br>
+            <img src="img/facebook.svg" width="30" height="30" class="d-inline-block" alt="">
+            <img src="img/youtube.svg" width="30" height="30" class="d-inline-block" alt="">
+            <img src="img/twitter.svg" width="30" height="30" class="d-inline-block" alt="">
+            <img src="img/Instagram.svg" width="30" height="30" class="d-inline-block" alt="">
+          </div>
+          <div class="col-md-3">
+            <h5 class="text-dark text-left  mt-3">LINKS</h5>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">• Home</li>
+              <li class="list-group-item">• Institucional</li>
+              <li class="list-group-item">• Ensino</li>
+              <li class="list-group-item">• Pesquisa</li>
+              <li class="list-group-item">• Extensão</li>
+            </ul>
+          </div>
+          <div class="col-md-3 bg-dark">
+            <img src="img/logo_perf_bnranco.png" width="250" height="150" class="d-inline-block text-bottom" alt="">
+          </div>
+          <div class="col-md-3">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d63746.04139637034!2d-59.9785472!3d-3.0605312!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x926c1b6925aaf297%3A0xf1141cd0822ad926!2sESAP%20-%20Escola%20de%20Sa%C3%BAde%20P%C3%BAblica%20de%20Manaus!5e0!3m2!1spt-BR!2sbr!4v1657731058224!5m2!1spt-BR!2sbr" width="280" height="350" class="justify-content-center p-2 text-center" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+      </div>
+  </div>
+    
+   </footer>
+  <div id="namecopyright" class="container-full text-center bg-dark text-white">
+    © 2022 Copyright: Wagner 
+  </div>
+ </html>
